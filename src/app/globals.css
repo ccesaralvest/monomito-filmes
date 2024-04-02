@@ -312,6 +312,19 @@ a {
   max-width: 400px;
 }
 
+/* Seção 6 Footer */
+
+.home-footer {
+  background-color: rgb(14, 14, 14);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .cabecalho {

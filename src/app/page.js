@@ -255,6 +255,59 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Seção 6 Footer */}
+        <section className="home-footer">
+          <section className="infos-esquerda">
+            <h1>Vamos rodar um projeto juntos?</h1>
+
+            <p>Monomito Filmes</p>
+            <p>São Paulo - Sp</p>
+
+            <p>Rua Paraú, 58</p>
+            <p>Itaim Paulista CEP: 08120-060</p>
+
+            <p>+55 11 9 8182-2930</p>
+
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/monomitofilmes/" target="_blank"> 
+                <FaFacebookSquare size="1.4em" color="white"/> 
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/monomitofilmes/" target="_blank">
+                  <FaInstagram size="1.4em" color="white" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCFacycfmcN-9HwOue4qE07Q" target="_blank"> 
+                <FaYoutube size="1.4em" color="white"/> 
+                </a>
+              </li>
+              <li>
+                <a href="https://br.linkedin.com/company/monomito-filmes" target="_blank"> 
+                <AiFillLinkedin size="1.4em" color="white"/> 
+                </a>
+              </li>
+            </ul>
+
+          </section>
+
+          <section className="form-direita">
+            <h1>Fale com a gente e peça um orçamento</h1>
+            
+            {/* Fazer formulario abaixo (lembrete) */}
+
+
+
+
+          </section>
+
+
+
+
+
+        </section>
 
       </main>
     </section>
