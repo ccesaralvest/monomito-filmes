@@ -257,47 +257,66 @@ export default function Home() {
 
         {/* Seção 6 Footer */}
         <section className="home-footer">
-          <section className="infos-esquerda">
-            <h1>Vamos rodar um projeto juntos?</h1>
+          <section className="all-info-footer">
+            <section className="infos-esquerda">
 
-            <p>Monomito Filmes</p>
-            <p>São Paulo - Sp</p>
+              <div className="footer-title">
+                <h1>Vamos rodar um <br></br> projeto juntos?</h1>
+              </div>
 
-            <p>Rua Paraú, 58</p>
-            <p>Itaim Paulista CEP: 08120-060</p>
+              <div className="footer-loc-info">
+                <p>Monomito Filmes</p>
+                <p>São Paulo - Sp</p>
+              </div>
+              
+              <div className="footer-adress">
+                <p>Rua Paraú, 58</p>
+                <p>Itaim Paulista CEP: 08120-060</p>
+              </div>
 
-            <p>+55 11 9 8182-2930</p>
+              <div className="footer-tel"> 
+                <p>+55 11 9 8182-2930</p>
+              </div>
 
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/monomitofilmes/" target="_blank"> 
-                <FaFacebookSquare size="1.4em" color="white"/> 
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/monomitofilmes/" target="_blank">
-                  <FaInstagram size="1.4em" color="white" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UCFacycfmcN-9HwOue4qE07Q" target="_blank"> 
-                <FaYoutube size="1.4em" color="white"/> 
-                </a>
-              </li>
-              <li>
-                <a href="https://br.linkedin.com/company/monomito-filmes" target="_blank"> 
-                <AiFillLinkedin size="1.4em" color="white"/> 
-                </a>
-              </li>
-            </ul>
+              <ul className="icons-footer">
+                <li>
+                  <a href="https://www.facebook.com/monomitofilmes/" target="_blank"> 
+                  <FaFacebookSquare size="1.4em" color="white"/> 
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/monomitofilmes/" target="_blank">
+                    <FaInstagram size="1.4em" color="white" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCFacycfmcN-9HwOue4qE07Q" target="_blank"> 
+                  <FaYoutube size="1.4em" color="white"/> 
+                  </a>
+                </li>
+                <li>
+                  <a href="https://br.linkedin.com/company/monomito-filmes" target="_blank"> 
+                  <AiFillLinkedin size="1.4em" color="white"/> 
+                  </a>
+                </li>
+              </ul>
 
+            </section>
+
+            <section className="infos-direita">
+              <h1>Fale com a gente e <br></br> peça um orçamento</h1>
+              
+              <form>
+                <input className="form-footer" type="text" placeholder="Nome"></input>
+                <input className="form-footer" type="email" placeholder="E-mail"></input>
+                <input className="form-footer" type="tel" placeholder="Telefone"></input>
+                <input className="form-footer-mensagem" type="text" placeholder="Mensagem"></input>
+                <div>
+                  <input className="form-submit" type="button" value="Enviar"></input>
+                </div>
+              </form>
           </section>
-
-          <section className="form-direita">
-            <h1>Fale com a gente e peça um orçamento</h1>
-            
-            {/* Fazer formulario abaixo (lembrete) */}
-
+          
 
 
 
