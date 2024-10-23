@@ -110,9 +110,15 @@ a {
   }
 }
 
-@media only screen and (min-width: 1284px) {
+@media only screen and (max-width: 1284px) {
   .swiper-coverflow {
     height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1239px) {
+  .content-page {
+    padding-top: 1.6rem;
   }
 }
 
